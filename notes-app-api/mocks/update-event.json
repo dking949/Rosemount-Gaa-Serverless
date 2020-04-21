@@ -1,0 +1,7 @@
+{
+    "body": "{\"content\":\"updated note message\"}",
+    "pathParameters": {
+        "userId": "5",
+        "noteId": "0183cc30-82ce-11ea-98c8-a14258c3c78e"
+    }
+}
