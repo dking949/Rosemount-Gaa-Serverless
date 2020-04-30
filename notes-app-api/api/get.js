@@ -9,7 +9,7 @@ export const main = handler(async (event, context) => {
     // - 'noteId': path parameter
     Key: {
       userId: event.pathParameters.userId,
-      NoteId: event.pathParameters.noteId
+      noteId: event.pathParameters.noteId
     }
   };
 

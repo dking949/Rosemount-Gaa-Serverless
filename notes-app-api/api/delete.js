@@ -8,8 +8,8 @@ export const main = handler(async (event, context) => {
     // - 'userId': Identity Pool identity id of the authenticated user
     // - 'noteId': path parameter
     Key: {
-      userId: event.pathParameters.userId,// TODO: event.requestContext.identity.cognitoIdentityId,
-      NoteId: event.pathParameters.noteId
+      userId: event.requestContext.identity.cognitoIdentityId,
+      noteId: event.pathParameters.noteId
     }
   };
 
